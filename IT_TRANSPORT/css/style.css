@@ -1,0 +1,201 @@
+
+.grille{
+    display: grid;
+    grid-template-rows:  6% 7% 55% 70px 213px;
+}
+header ,main,footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    box-sizing: border-box;
+    
+}
+header , footer{
+    background-color: wheat;
+    margin: -8px;
+}
+
+.menu ,a{
+    color: black;
+    text-decoration: none;
+    font-size: large;
+    font-weight: bold;
+}
+.droit{
+    margin-top: 30px;
+    margin-left: 10px;
+    
+}
+
+.pub{
+    display: flex;
+}
+.choix{
+    display: flex;
+}
+.logo{
+    width: 100px;
+}
+.imgpub{
+    width: 230px;
+    height: 230px;
+}
+.imgchoix{
+    margin-right: 8px;
+    width: 400px;
+    height: 240px;
+}
+.map{
+    width: 602px;
+    height: 470px;
+    margin-top: 31px;
+}
+ p{
+    font-size: 17px;
+    margin-left: 17px;
+    margin-top: 0px;
+}
+.btn{
+    display: flex;
+    justify-content: center;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+footer{
+    flex-wrap: wrap;
+    margin-bottom: -50px;
+    margin-top: 35px;
+}
+.lorem{
+    display: flex;
+}
+.div_reseau{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.reseau{
+    font-size: 70px;
+
+}
+.grille_coontact{
+    display: grid;
+    grid-template-rows:  6%  90% 213px;
+}
+.wrap{
+    flex-wrap: wrap;
+}
+input[type=text], textarea, input[type=email] {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    margin-right: 0px;
+    margin-left: 0px;
+    resize: vertical;
+}
+label{
+    margin-right: 0px;
+    margin-left: 0px;
+    width: 100%;
+}
+  
+input[type=submit] {
+    background-color: #1255a2;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;  
+}
+  
+input[type=submit]:hover {
+    background-color: #1872D9;
+}
+.container {
+    box-sizing : border-box;
+    border-radius:5px;
+    background-color:#f2f2f2;
+    padding:20px;
+    width: 100%;
+    margin:0 auto;
+    max-width: 600px;
+}
+h1{
+    color: black;
+    width: 100%;
+    display: flex;
+}
+.it{
+    justify-content: center;
+    align-items: flex-start;
+    font-size: 40px;
+}
+@media screen and (max-width : 767px) {
+    
+    .grille{
+        grid-template-rows: 5% 5% 65% 5% 230px;
+    }
+    .grille_coontact{
+        display: grid;
+        grid-template-rows:  3%  90% 150px;
+    }
+    .logo {
+        width: 60px;
+    }
+    main{
+        flex-wrap: wrap;
+    }
+    .droit{
+        margin-top: 9px;
+        margin-left: 0px;
+    }
+    p{
+        font-size: 10px;
+    }
+    .p_2{
+        font-size: smaller;
+    }
+    
+    .map{
+        width: 390px;
+        height: 300px;
+    }
+    .imgpub{
+        width: 160px;
+        height: 160px;
+    }
+    .imgchoix{
+        height: 162px;
+        width: 186px;
+    }
+    footer{
+        margin-bottom: -14px;
+        margin-top: 0px;
+    }
+    .reseau {
+        font-size: 20px;
+    }
+}
+@media screen and (min-width : 767px) and (max-width :1024px){
+    .map{
+        width: 350px;
+        height: 300px;
+        margin-top: 31px;
+    }
+    .imgpub {
+        width: 100px;
+        height: 100px;
+    }
+    .imgchoix{
+        margin-right: 8px;
+        width: 200px;
+        height: 172px;
+    }
+    p{
+        font-size: x-small;
+    }
+}
